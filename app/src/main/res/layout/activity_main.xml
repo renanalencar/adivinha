@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha um número entre 0 e 10"
+        android:textSize="@dimen/cabecalho_texto"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_jogar"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/cabecalho_texto"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="179dp"
+        tools:text="@string/texto_numero" />
+</androidx.constraintlayout.widget.ConstraintLayout>
