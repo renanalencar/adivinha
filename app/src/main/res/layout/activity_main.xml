@@ -10,26 +10,32 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Escolha um número entre 0 e 10"
         android:textSize="@dimen/cabecalho_texto"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/botaoJogarId"
+        android:layout_width="314dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="46dp"
         android:text="@string/botao_jogar"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textoResultadoId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
         android:text="TextView"
         android:textSize="@dimen/cabecalho_texto"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="179dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoJogarId"
         tools:text="@string/texto_numero" />
 </androidx.constraintlayout.widget.ConstraintLayout>
